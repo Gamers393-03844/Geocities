@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mijn Eenvoudige Webpagina</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 15px 0;
+        }
+        nav a {
+            margin: 0 10px;
+            color: #35424a;
+            text-decoration: none;
+        }
+        main {
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.8em;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welkom op Mijn Website</h1>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#over">Over</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<main>
+    <h2>Over Mij</h2>
+    <p>Dit is een voorbeeld van een eenvoudige webpagina gemaakt met HTML. Je kunt deze code gebruiken als basis voor je eigen website.</p>
+    <img src="https://via.placeholder.com/400" alt="Voorbeeldafbeelding">
+    
+    <h3>Mijn Hobby's</h3>
+    <ul>
+        <li>Programmeren</li>
+        <li>Gamen</li>
+        <li>Fotografie</li>
+    </ul>
+
+    <h3>Neem Contact Op</h3>
+    <p>Als je vragen hebt, kun je <a href="mailto:voornaam.achternaam@example.com">mij een e-mail sturen</a>.</p>
+</main>
+
+<footer>
+    <p>&copy; 2024 Mijn Website. Alle rechten voorbehouden.</p>
+</footer>
+
+</body>
+</html>
